@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Theory + Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4a87e1d21027d2c2",
+            "id": "eee36e06b0fcf842",
             "type": "leaf",
             "state": {
               "type": "style-settings",
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Theory + Algorithms.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Theory + Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Theory + Algorithms.md"
               }
             }
           },
@@ -172,10 +173,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa46a7452fd8e2fa",
+  "active": "0c5e98baa3e3e241",
   "lastOpenFiles": [
-    "Untitled.md",
     "README.md",
+    "Theory + Algorithms.md",
     "MERN/Set2.md",
     "MERN/Node.js.md",
     "Pasted image 20230608154737.png",

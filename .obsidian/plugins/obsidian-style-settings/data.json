@@ -1,3 +1,15 @@
 {
-  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-custom-dt"
+  "obsidian-prism-theme@@text-bold-color-dt": "var(--color-orange-text)",
+  "obsidian-prism-theme@@text-italic-color-dt": "var(--color-yellow-text)",
+  "obsidian-prism-theme@@text-italic-bold-color-dt": "var(--color-cyan-text)",
+  "obsidian-prism-theme@@inline-title-color-dt": "var(--color-red-text)",
+  "obsidian-prism-theme@@h1-text-color-dt": "var(--color-orange-text)",
+  "obsidian-prism-theme@@h2-text-color-dt": "var(--color-yellow-text)",
+  "obsidian-prism-theme@@h3-text-color-dt": "var(--color-green-text)",
+  "obsidian-prism-theme@@h4-text-color-dt": "var(--color-mint-text)",
+  "obsidian-prism-theme@@h5-text-color-dt": "var(--color-cyan-text)",
+  "obsidian-prism-theme@@h6-text-color-dt": "var(--color-blue-text)",
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-raven-dt",
+  "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-filled-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-cyan-dt"
 }
