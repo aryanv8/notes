@@ -8,7 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa46a7452fd8e2fa",
+            "id": "eee36e06b0fcf842",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
+            "id": "19b1b5ade94741f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,14 +28,19 @@
             }
           },
           {
-            "id": "eee36e06b0fcf842",
+            "id": "dcaca695468a57c9",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Callouts.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,10 +185,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa46a7452fd8e2fa",
+  "active": "19b1b5ade94741f2",
   "lastOpenFiles": [
-    "README.md",
+    "Callouts.md",
     "Theory + Algorithms.md",
+    "Pasted image 20230726213348.png",
+    "Pasted image 20230726213149.png",
+    "Image.png.md",
+    "README.md",
     "MERN/Set2.md",
     "MERN/Node.js.md",
     "Pasted image 20230608154737.png",
@@ -187,9 +204,7 @@
     "Pasted image 20230607141602.png",
     "Pasted image 20230607141501.png",
     "Pasted image 20230607141419.png",
-    "Pasted image 20230607141318.png",
     "MERN/Express.md",
-    "Pasted image 20230605154241.png",
     "MERN/React.md",
     "MERN/2023-05-22.md",
     "MERN/HTML.md",
