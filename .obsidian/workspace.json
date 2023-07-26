@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a87e1d21027d2c2",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ]
       }
@@ -166,6 +174,8 @@
   },
   "active": "aa46a7452fd8e2fa",
   "lastOpenFiles": [
+    "Untitled.md",
+    "README.md",
     "MERN/Set2.md",
     "MERN/Node.js.md",
     "Pasted image 20230608154737.png",
@@ -199,7 +209,6 @@
     "Story/Chapter 1.md",
     "Story/Characters/B.md",
     "Story/Characters/A.md",
-    "README.md",
     "The 1619 Project, MLK, and the Subtle Indignity of a Lazy History Teacher’s Assignment  by Toya Qualls-Barnette  Writers and Editors of Color Magazine.md",
     "Story/Characters/C.md",
     "Java/Class 19-02-23.md"
