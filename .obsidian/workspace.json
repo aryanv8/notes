@@ -23,6 +23,42 @@
               "state": {
                 "file": "Theory + Algorithms.md",
                 "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3046359d16f24d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Full Binary Tree.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "86272f7d7270cce9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perfect Binary Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e575fe9b9d33e5da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory + Algorithms.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -40,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory + Algorithms.md",
+                "file": "Perfect Binary Tree.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory + Algorithms.md",
+                "file": "Perfect Binary Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory + Algorithms.md"
+                "file": "Perfect Binary Tree.md"
               }
             }
           },
@@ -185,10 +221,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "19b1b5ade94741f2",
+  "active": "86272f7d7270cce9",
   "lastOpenFiles": [
-    "Callouts.md",
     "Theory + Algorithms.md",
+    "Perfect Binary Tree.md",
+    "Full Binary Tree.md",
+    "Full Binary Tree Check Code.md",
+    "Callouts.md",
+    "images",
+    "images/Pasted image 20230728115955.png",
     "Pasted image 20230726213348.png",
     "Pasted image 20230726213149.png",
     "Image.png.md",
@@ -203,7 +244,6 @@
     "Pasted image 20230607141611.png",
     "Pasted image 20230607141602.png",
     "Pasted image 20230607141501.png",
-    "Pasted image 20230607141419.png",
     "MERN/Express.md",
     "MERN/React.md",
     "MERN/2023-05-22.md",
@@ -223,9 +263,6 @@
     "Class 19-02-23.pdf",
     "Story/Chapter 1.md",
     "Story/Characters/B.md",
-    "Story/Characters/A.md",
-    "The 1619 Project, MLK, and the Subtle Indignity of a Lazy History Teacher’s Assignment  by Toya Qualls-Barnette  Writers and Editors of Color Magazine.md",
-    "Story/Characters/C.md",
-    "Java/Class 19-02-23.md"
+    "Story/Characters/A.md"
   ]
 }

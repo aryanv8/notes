@@ -110,5 +110,13 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }
