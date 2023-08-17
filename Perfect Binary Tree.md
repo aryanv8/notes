@@ -38,3 +38,5 @@ def is_perfect(root, d, level=0):
 2. A perfect binary tree with n nodes has height `log(n + 1) – 1 = Θ(ln(n))`.
 3. A perfect binary tree of height h has `2^h` leaf nodes.
 4. The average depth of a node in a perfect binary tree is `Θ(ln(n))`.
+
+
