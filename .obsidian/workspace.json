@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "f9e37a0165ea756a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Assignment - 1 Smart Contract Essentials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e575fe9b9d33e5da",
             "type": "leaf",
             "state": {
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Perfect Binary Tree.md",
+                "file": "Digital Assignment - 1 Smart Contract Essentials.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Perfect Binary Tree.md",
+                "file": "Digital Assignment - 1 Smart Contract Essentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Perfect Binary Tree.md"
+                "file": "Digital Assignment - 1 Smart Contract Essentials.md"
               }
             }
           },
@@ -221,10 +233,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "86272f7d7270cce9",
+  "active": "f9e37a0165ea756a",
   "lastOpenFiles": [
-    "Theory + Algorithms.md",
+    "~$gital Assignment - 1 Smart Contract Essentials.docx",
+    "Digital Assignment - 1 Smart Contract Essentials.docx",
+    "~$titled.docx",
+    "Untitled.docx",
     "Perfect Binary Tree.md",
+    "Digital Assignment - 1 Smart Contract Essentials.md",
+    "Theory + Algorithms.md",
     "Full Binary Tree.md",
     "Full Binary Tree Check Code.md",
     "Callouts.md",
@@ -261,8 +278,6 @@
     "fw.md",
     "flowchart for TARP.md",
     "Class 19-02-23.pdf",
-    "Story/Chapter 1.md",
-    "Story/Characters/B.md",
-    "Story/Characters/A.md"
+    "Story/Chapter 1.md"
   ]
 }
