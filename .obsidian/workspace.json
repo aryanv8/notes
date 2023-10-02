@@ -16,7 +16,7 @@
               "state": {
                 "file": "ISAA papers.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISAA 2.md",
+                "file": "ISAA papers.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISAA 2.md",
+                "file": "ISAA papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISAA 2.md"
+                "file": "ISAA papers.md"
               }
             }
           },
@@ -184,12 +184,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "695bd2ab913b85a2",
+  "active": "4364be60fa4f6714",
   "lastOpenFiles": [
+    "ISAA 2.md",
     "~$ISAA 2.docx",
     "ISAA 2.docx",
     "ISAA papers.md",
-    "ISAA 2.md",
     "~$AA papers.docx",
     "ISAA papers.docx",
     "Smart Contract Assignments 1, 2, 3.md",
@@ -231,7 +231,6 @@
     "GO/Go CLI.md",
     "Characters/1person.md",
     "MERN",
-    "GO",
     "Mermaid_Flowchart.md"
   ]
 }
