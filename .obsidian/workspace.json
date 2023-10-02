@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0a667e1264c60968",
+        "id": "c47a90a7327a78f8",
         "type": "tabs",
         "children": [
           {
-            "id": "1fada26d365094dc",
+            "id": "4364be60fa4f6714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smart Contract Assignments 1, 2, 3.md",
+                "file": "ISAA papers.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Smart Contract Assignments 1, 2, 3.md",
+                "file": "ISAA papers.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Smart Contract Assignments 1, 2, 3.md",
+                "file": "ISAA papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Smart Contract Assignments 1, 2, 3.md"
+                "file": "ISAA papers.md"
               }
             }
           },
@@ -165,8 +164,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1fada26d365094dc",
+  "active": "4364be60fa4f6714",
   "lastOpenFiles": [
+    "~$AA papers.docx",
+    "ISAA papers.docx",
+    "ISAA papers.md",
     "Smart Contract Assignments 1, 2, 3.md",
     "~$gital Assignment - 1 Smart Contract Essentials.docx",
     "Digital Assignment - 1 Smart Contract Essentials.docx",
@@ -209,8 +211,6 @@
     "GO",
     "Mermaid_Flowchart.md",
     "fw.md",
-    "flowchart for TARP.md",
-    "Class 19-02-23.pdf",
-    "Story/Chapter 1.md"
+    "Class 19-02-23.pdf"
   ]
 }
