@@ -4,42 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c47a90a7327a78f8",
+        "id": "38e92dcf7dab92b7",
         "type": "tabs",
-        "dimension": 54.832935560859184,
         "children": [
           {
-            "id": "4364be60fa4f6714",
+            "id": "2c4767d1ac6871d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c521d328ce4afcc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
               "state": {
-                "file": "ISAA papers.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.4.14"
               }
             }
           }
-        ]
-      },
-      {
-        "id": "64eb5e6ed8e76328",
-        "type": "tabs",
-        "dimension": 45.167064439140816,
-        "children": [
-          {
-            "id": "695bd2ab913b85a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISAA 2.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISAA papers.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISAA papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ISAA papers.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,12 +167,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4364be60fa4f6714",
+  "active": "2c521d328ce4afcc",
   "lastOpenFiles": [
+    "ISAA papers.md",
     "ISAA 2.md",
     "~$ISAA 2.docx",
     "ISAA 2.docx",
-    "ISAA papers.md",
     "~$AA papers.docx",
     "ISAA papers.docx",
     "Smart Contract Assignments 1, 2, 3.md",
