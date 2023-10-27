@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISAA DA  Papers.md",
+                "file": "Information Security Analysis and Audit.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Information Security Analysis and Audit.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Information Security Analysis and Audit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Information Security Analysis and Audit.md"
               }
             }
           },
@@ -196,10 +195,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ea916bf760b60844",
+  "active": "095efb4338034897",
   "lastOpenFiles": [
+    "~$formation Security Analysis and Audit.docx",
+    "Information Security Analysis and Audit.docx",
     "Untitled.md",
-    "ISAA DA  Papers.md",
+    "Information Security Analysis and Audit.md",
     "ISAA papers.md",
     "ISAA 2.md",
     "~$ISAA 2.docx",
@@ -242,8 +243,6 @@
     "Random.md",
     "Untitled.canvas",
     "MERN/Links and Few Tasks.md",
-    "GO/Go CLI.md",
-    "Characters/1person.md",
-    "MERN"
+    "GO/Go CLI.md"
   ]
 }
