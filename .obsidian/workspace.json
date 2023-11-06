@@ -16,41 +16,31 @@
             }
           },
           {
+            "id": "ba1b84ae1cbb56a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smart Contract Class Education Certificate Temp2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6435125b2f4aa78a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Smart Contract Class Education Certificate Temp1.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ea916bf760b60844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb4616b8a2f31d9b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -124,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Smart Contract Class Education Certificate Temp1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Smart Contract Class Education Certificate Temp1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Smart Contract Class Education Certificate Temp1.md"
               }
             }
           },
@@ -195,10 +186,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6435125b2f4aa78a",
+  "active": "0c5e98baa3e3e241",
   "lastOpenFiles": [
+    "Smart Contract Class Education Certificate Temp2.md",
+    "Smart Contract Class Education Certificate Temp1.md",
     "Untitled.md",
-    "Untitled 1.md",
     "Information Security Analysis and Audit.md",
     "~$formation Security Analysis and Audit.docx",
     "Information Security Analysis and Audit.docx",
@@ -242,7 +234,6 @@
     "pseudo1.md",
     "Random.md",
     "Untitled.canvas",
-    "MERN/Links and Few Tasks.md",
-    "GO/Go CLI.md"
+    "MERN/Links and Few Tasks.md"
   ]
 }
