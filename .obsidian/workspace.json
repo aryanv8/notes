@@ -11,14 +11,6 @@
             "id": "2c4767d1ac6871d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ba1b84ae1cbb56a4",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Smart Contract Class Education Certificate Temp2.md",
@@ -40,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,11 +178,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0c5e98baa3e3e241",
+  "active": "6435125b2f4aa78a",
   "lastOpenFiles": [
     "Smart Contract Class Education Certificate Temp2.md",
+    "Theory + Algorithms.md",
     "Smart Contract Class Education Certificate Temp1.md",
     "Untitled.md",
+    "Full Binary Tree Check Code.md",
+    "Full Binary Tree.md",
+    "Digital Assignment - 1 Smart Contract Essentials.md",
     "Information Security Analysis and Audit.md",
     "~$formation Security Analysis and Audit.docx",
     "Information Security Analysis and Audit.docx",
@@ -206,10 +202,6 @@
     "~$titled.docx",
     "Untitled.docx",
     "Perfect Binary Tree.md",
-    "Digital Assignment - 1 Smart Contract Essentials.md",
-    "Theory + Algorithms.md",
-    "Full Binary Tree.md",
-    "Full Binary Tree Check Code.md",
     "Callouts.md",
     "images/Pasted image 20230728115955.png",
     "Pasted image 20230726213348.png",
