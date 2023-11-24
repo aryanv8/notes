@@ -11,8 +11,12 @@
             "id": "00165f589bbd2428",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Smart Contract Class Education Certificate Temp2.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Smart Contract Class Education Certificate Temp2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Smart Contract Class Education Certificate Temp2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Smart Contract Class Education Certificate Temp2.md"
+              }
             }
           },
           {
@@ -157,10 +165,10 @@
   },
   "active": "00165f589bbd2428",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Smart Contract Assignments 1, 2, 3.md",
     "Smart Contract Class Education Certificate Temp1.md",
     "Smart Contract Class Education Certificate Temp2.md",
+    "Untitled 1.md",
+    "Smart Contract Assignments 1, 2, 3.md",
     "Untitled.md",
     "Theory + Algorithms.md",
     "Full Binary Tree Check Code.md",
