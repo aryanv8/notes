@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smart Contract Class Education Certificate Temp2.md",
-                "mode": "preview",
+                "file": "ISAA Literature Survey.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Smart Contract Class Education Certificate Temp2.md",
+                "file": "ISAA Literature Survey.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Smart Contract Class Education Certificate Temp2.md",
+                "file": "ISAA Literature Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Smart Contract Class Education Certificate Temp2.md"
+                "file": "ISAA Literature Survey.md"
               }
             }
           },
@@ -165,20 +165,22 @@
   },
   "active": "00165f589bbd2428",
   "lastOpenFiles": [
-    "Smart Contract Class Education Certificate Temp1.md",
-    "Smart Contract Class Education Certificate Temp2.md",
-    "Untitled 1.md",
-    "Smart Contract Assignments 1, 2, 3.md",
+    "~$AA Literature Survey.docx",
+    "ISAA Literature Survey.docx",
     "Untitled.md",
+    "ISAA 2.md",
+    "ISAA papers.md",
+    "Information Security Analysis and Audit.md",
+    "Smart Contract Class Education Certificate Temp2.md",
+    "Smart Contract Class Education Certificate Temp1.md",
+    "ISAA Literature Survey.md",
+    "Smart Contract Assignments 1, 2, 3.md",
     "Theory + Algorithms.md",
     "Full Binary Tree Check Code.md",
     "Full Binary Tree.md",
     "Digital Assignment - 1 Smart Contract Essentials.md",
-    "Information Security Analysis and Audit.md",
     "~$formation Security Analysis and Audit.docx",
     "Information Security Analysis and Audit.docx",
-    "ISAA papers.md",
-    "ISAA 2.md",
     "~$ISAA 2.docx",
     "ISAA 2.docx",
     "~$AA papers.docx",
@@ -186,7 +188,6 @@
     "~$gital Assignment - 1 Smart Contract Essentials.docx",
     "Digital Assignment - 1 Smart Contract Essentials.docx",
     "~$titled.docx",
-    "Untitled.docx",
     "Perfect Binary Tree.md",
     "Callouts.md",
     "images/Pasted image 20230728115955.png",
@@ -210,7 +211,6 @@
     "MERN/HTML.md",
     "MERN/Form.md",
     "pseudo1.md",
-    "Random.md",
     "Untitled.canvas"
   ]
 }
