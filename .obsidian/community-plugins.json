@@ -3,5 +3,6 @@
   "obsidian-git",
   "obsidian-pandoc",
   "obsidian-fullscreen-plugin",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-plugin-toc"
 ]
