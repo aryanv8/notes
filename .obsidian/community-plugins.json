@@ -4,5 +4,6 @@
   "obsidian-pandoc",
   "obsidian-fullscreen-plugin",
   "obsidian-style-settings",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-meta-bind-plugin"
 ]
