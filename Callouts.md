@@ -29,5 +29,6 @@
 >cite
 
 >[!abstract]
->summary, tdlr
+>summary, tldr
+
 

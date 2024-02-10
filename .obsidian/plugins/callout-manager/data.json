@@ -1,0 +1,38 @@
+{
+  "callouts": {
+    "custom": [
+      "note"
+    ],
+    "settings": {
+      "note": [
+        {
+          "changes": {
+            "icon": "lucide-pen-tool"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "184, 0, 28"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 0, 38"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

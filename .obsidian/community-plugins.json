@@ -5,5 +5,6 @@
   "obsidian-fullscreen-plugin",
   "obsidian-style-settings",
   "obsidian-plugin-toc",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "callout-manager"
 ]
