@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,8 +188,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ef6239ae035d31ed",
+  "active": "a976b181f47d05bc",
   "lastOpenFiles": [
+    "images/Pasted image 20231129180933.png",
     "temp.md",
     "Compression Techniques.md",
     "ISAA revision.md",
