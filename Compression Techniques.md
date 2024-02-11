@@ -12,3 +12,56 @@
 | 7 | Priya, B. L., & Dhenakaran, S. S. (2018). New Approach for Text Based Image Compression. International Journal of Scientific Research in Science and Technology, 4(8), 489. | Novel approach for text-based image compression. Methodology involves compressing the image, transforming it into an ASCII file based on pixel values, applying text compression to reduce the size, and reverting the text file to a pixel file. Resulting in a compressed image with a small file size. Experimental results demonstrate successful achievement of intended compression goals. | - Introduction of a novel approach for text-based image compression<br>- Compression methodology involving image compression, ASCII transformation, and text compression<br>- Experimental results using MATLAB 8.4 software with a sample image<br>- Achieved compression ratio of 62.2% indicating better image file compression | - Limited details on the specific techniques used for image compression and ASCII transformation<br>- Lack of discussion on potential limitations or challenges in the proposed approach<br>- Brief mention of the experimental setup without detailed information | - Successful implementation of a new approach for image compression<br>- Increased compression ratio compared to other three methods considered for comparison<br>- Demonstrated practical results with a sample image reduction from 28.68 KB to 458 bytes<br>- Encouraging findings for achieving better compression in text-based image compression |
 | 8 | Senapatil, B., & Kisan, S. (2018, February). Color image compression using fractal geometry. In 2018 International Conference on Soft-computing and Network Security (ICSNS) (pp. 1-6). IEEE. | Color image compression using fractal geometry. Fractal image compression minimizes image size without degrading quality by exploiting self-similarity. The proposed methodology involves dividing the image into domain and range blocks, applying DCT transformation for signal compression, and using Huffman coding for further compression. Evaluation metrics include compression ratio, Mean Square Error, and Peak Signal Noise Ratio. Results indicate improved performance in compression and recreation ratios. | - Fractal image compression exploiting self-similarity for minimizing image size<br>- Methodology involving DCT transformation and Huffman coding for compression<br>- Division of image into domain and range blocks for efficient compression<br>- Evaluation metrics include compression ratio, Mean Square Error, and Peak Signal Noise Ratio | - Lack of specific details on the datasets and scenarios used in experiments<br>- Limited discussion on the fractal geometry aspects of the compression<br>- Brief mention of parameters RMSE and PSNR without detailed explanation | - Successful application of fractal geometry for color image compression<br>- Methodology involving DCT transformation and Huffman coding demonstrates improved performance<br>- Efficient division of image into domain and range blocks for compression<br>- Positive results in compression and recreation ratios with better performance in both aspects |
 
+```mermaid
+flowchart TD
+  subgraph MultimediaFiles
+    style multinode fill:#f9f9f9,stroke:#999
+    Images
+    Videos
+    Audio
+  end
+
+  subgraph LosslessCompression
+    style multinode fill:#f9f9f9,stroke:#999
+    AdaptiveDictionaryEncoding
+    ContextualModeling
+    ProgressiveRefinement
+  end
+
+  subgraph MultimediaProcessingPipeline
+    style multinode fill:#f9f9f9,stroke:#999
+    Transmission
+    Storage
+    Processing
+  end
+
+  subgraph Research
+    style multinode fill:#f9f9f9,stroke:#999
+    TheoreticalAnalysis
+    AlgorithmicDevelopment
+    EmpiricalEvaluation
+  end
+
+  subgraph Technologies
+    style multinode fill:#f9f9f9,stroke:#999
+    DeepLearning
+    TransformCoding
+    AdaptiveEntropyModels
+  end
+
+  subgraph Objectives
+    style multinode fill:#f9f9f9,stroke:#999
+    CompressionRatios
+    RealTimeApplications
+    AdaptiveStrategies
+    Robustness
+    RealWorldApplications
+  end
+
+  MultimediaFiles --> LosslessCompression
+  LosslessCompression --> MultimediaProcessingPipeline
+  LosslessCompression --> Research
+  Technologies --> Research
+  Research --> Objectives
+
+```
