@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,11 +186,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "342b36e2b6eb8d20",
+  "active": "be59f05f74fbb20a",
   "lastOpenFiles": [
+    "~$mpression Techniques.docx",
+    "Compression Techniques.docx",
+    "Compression Techniques.md",
     "temp.md",
     "Callouts.md",
-    "Compression Techniques.md",
     "images/Pasted image 20231129180933.png",
     "ISAA revision.md",
     "ISAA 2.md",
@@ -218,11 +220,20 @@
     "~$ISAA 2.docx",
     "ISAA 2.docx",
     "~$AA papers.docx",
-    "ISAA papers.docx",
     "images/Pasted image 20230728115955.png",
     "Pasted image 20230726213348.png",
     "Pasted image 20230726213149.png",
     "Image.png.md",
     "MERN/Set2.md",
     "MERN/Node.js.md",
-    "Pasted image 20230608154737.pn
+    "Pasted image 20230608154737.png",
+    "Pasted image 20230608151852.png",
+    "Pasted image 20230608144331.png",
+    "MERN/CSS.md",
+    "Pasted image 20230607141626.png",
+    "Pasted image 20230607141611.png",
+    "MERN/Express.md",
+    "MERN/React.md",
+    "Untitled.canvas"
+  ]
+}
