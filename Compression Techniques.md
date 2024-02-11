@@ -190,9 +190,9 @@ graph TB
 ```
 
 ```mermaid
-graph TB
+graph TD
   subgraph MultimediaFile
-    style MultimediaFile fill:#fce5f7,stroke:#333
+    style MultimediaFile fill:#ffcaca,stroke:#333
     OriginalData
   end
 
@@ -205,7 +205,7 @@ graph TB
   end
 
   subgraph ContextualModeling
-    style ContextualModeling fill:#f2dede,stroke:#333
+    style ContextualModeling fill:#f2eeee,stroke:#333
     SurroundingData
     PredictionAccuracy
     CompactRepresentation
@@ -219,7 +219,7 @@ graph TB
   end
 
   subgraph CompressedData
-    style CompressedData fill:#d9fda7,stroke:#333
+    style CompressedData fill:#edffdd,stroke:#333
     FinalCompressedData
   end
 
@@ -229,3 +229,4 @@ graph TB
   ProgressiveRefinement --> CompressedData
 
 ```
+

@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dfffad",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compression Techniques.md",
+                "file": "ISAA revision.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compression Techniques.md",
+                "file": "ISAA revision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compression Techniques.md"
+                "file": "ISAA revision.md"
               }
             }
           },
@@ -186,8 +187,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "be59f05f74fbb20a",
+  "active": "b5ee248c074be903",
   "lastOpenFiles": [
+    "~WRL0005.tmp",
+    "~WRD0004.tmp",
     "~$mpression Techniques.docx",
     "Compression Techniques.docx",
     "Compression Techniques.md",
@@ -218,8 +221,6 @@
     "~$formation Security Analysis and Audit.docx",
     "Information Security Analysis and Audit.docx",
     "~$ISAA 2.docx",
-    "ISAA 2.docx",
-    "~$AA papers.docx",
     "images/Pasted image 20230728115955.png",
     "Pasted image 20230726213348.png",
     "Pasted image 20230726213149.png",
