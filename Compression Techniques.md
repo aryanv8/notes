@@ -65,3 +65,167 @@ flowchart TD
   Research --> Objectives
 
 ```
+
+```mermaid
+graph TB
+  subgraph MultimediaFile
+    style MultimediaFile fill:#f9f900,stroke:#999
+    OriginalData
+  end
+
+  subgraph AdaptiveDictionaryEncoding
+    style dictEnc fill:#f9f9f9,stroke:#999
+    DynamicDictionary
+    SymbolRepresentation
+    RecurringPatterns
+    ReducedRedundancy
+  end
+
+  subgraph ContextualModeling
+    style contextMod fill:#f9f9f9,stroke:#999
+    SurroundingData
+    PredictionAccuracy
+    CompactRepresentation
+  end
+
+  subgraph ProgressiveRefinement
+    style progRef fill:#f9f9f9,stroke:#999
+    EntropyCoding
+    IterativeRefinement
+    MinimizedRedundancy
+  end
+
+  subgraph CompressedData
+    style cData fill:#f9f9f9,stroke:#999
+    FinalCompressedData
+  end
+
+  MultimediaFile --> AdaptiveDictionaryEncoding
+  AdaptiveDictionaryEncoding --> ContextualModeling
+  ContextualModeling --> ProgressiveRefinement
+  ProgressiveRefinement --> CompressedData
+
+```
+
+```mermaid
+graph TD
+  subgraph cluster_MultimediaFile
+    style mFile fill:#f9f9f9,stroke:#999
+    OriginalData
+  end
+
+  subgraph cluster_AdaptiveDictionaryEncoding
+    style dictEnc fill:#f9f9f9,stroke:#999
+    DynamicDictionary
+    SymbolRepresentation
+    RecurringPatterns
+    ReducedRedundancy
+  end
+
+  subgraph cluster_ContextualModeling
+    style contextMod fill:#f9f900,stroke:#999
+    SurroundingData
+    PredictionAccuracy
+    CompactRepresentation
+  end
+
+  subgraph cluster_ProgressiveRefinement
+    style progRef fill:#f9f9f9,stroke:#999
+    EntropyCoding
+    IterativeRefinement
+    MinimizedRedundancy
+  end
+
+  subgraph cluster_CompressedData
+    style cData fill:#f9f9f9,stroke:#999
+    FinalCompressedData
+  end
+
+  cluster_MultimediaFile --> cluster_AdaptiveDictionaryEncoding
+  cluster_AdaptiveDictionaryEncoding --> cluster_ContextualModeling
+  cluster_ContextualModeling --> cluster_ProgressiveRefinement
+  cluster_ProgressiveRefinement --> cluster_CompressedData
+
+```
+
+```mermaid
+graph TB
+  subgraph MultimediaFile
+    style MultimediaFile fill:#5bc0de,stroke:#333
+    OriginalData
+  end
+
+  subgraph AdaptiveDictionaryEncoding
+    style AdaptiveDictionaryEncoding fill:#5cb85c,stroke:#333
+    DynamicDictionary
+    SymbolRepresentation
+    RecurringPatterns
+    ReducedRedundancy
+  end
+
+  subgraph ContextualModeling
+    style ContextualModeling fill:#d9534f,stroke:#333
+    SurroundingData
+    PredictionAccuracy
+    CompactRepresentation
+  end
+
+  subgraph ProgressiveRefinement
+    style ProgressiveRefinement fill:#f0ad4e,stroke:#333
+    EntropyCoding
+    IterativeRefinement
+    MinimizedRedundancy
+  end
+
+  subgraph CompressedData
+    style CompressedData fill:#428bca,stroke:#333
+    FinalCompressedData
+  end
+
+  MultimediaFile --> AdaptiveDictionaryEncoding
+  AdaptiveDictionaryEncoding --> ContextualModeling
+  ContextualModeling --> ProgressiveRefinement
+  ProgressiveRefinement --> CompressedData
+
+```
+
+```mermaid
+graph TB
+  subgraph MultimediaFile
+    style MultimediaFile fill:#fce5f7,stroke:#333
+    OriginalData
+  end
+
+  subgraph AdaptiveDictionaryEncoding
+    style AdaptiveDictionaryEncoding fill:#d9edf7,stroke:#333
+    DynamicDictionary
+    SymbolRepresentation
+    RecurringPatterns
+    ReducedRedundancy
+  end
+
+  subgraph ContextualModeling
+    style ContextualModeling fill:#f2dede,stroke:#333
+    SurroundingData
+    PredictionAccuracy
+    CompactRepresentation
+  end
+
+  subgraph ProgressiveRefinement
+    style ProgressiveRefinement fill:#fcf8e3,stroke:#333
+    EntropyCoding
+    IterativeRefinement
+    MinimizedRedundancy
+  end
+
+  subgraph CompressedData
+    style CompressedData fill:#d9fda7,stroke:#333
+    FinalCompressedData
+  end
+
+  MultimediaFile --> AdaptiveDictionaryEncoding
+  AdaptiveDictionaryEncoding --> ContextualModeling
+  ContextualModeling --> ProgressiveRefinement
+  ProgressiveRefinement --> CompressedData
+
+```
