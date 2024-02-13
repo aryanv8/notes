@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dfffad",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISAA revision.md",
+                "file": "Compression Techniques.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISAA revision.md",
+                "file": "Compression Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISAA revision.md"
+                "file": "Compression Techniques.md"
               }
             }
           },
@@ -187,8 +186,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b5ee248c074be903",
+  "active": "be59f05f74fbb20a",
   "lastOpenFiles": [
+    "ISAA revision.md",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
     "~$mpression Techniques.docx",
@@ -197,7 +197,6 @@
     "temp.md",
     "Callouts.md",
     "images/Pasted image 20231129180933.png",
-    "ISAA revision.md",
     "ISAA 2.md",
     "Full Binary Tree.md",
     "Digital Assignment - 1 Smart Contract Essentials.md",
@@ -220,7 +219,6 @@
     "Full Binary Tree Check Code.md",
     "~$formation Security Analysis and Audit.docx",
     "Information Security Analysis and Audit.docx",
-    "~$ISAA 2.docx",
     "images/Pasted image 20230728115955.png",
     "Pasted image 20230726213348.png",
     "Pasted image 20230726213149.png",

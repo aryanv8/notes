@@ -230,3 +230,30 @@ graph TD
 
 ```
 
+
+```mermaid
+graph TD
+  A[Load and Preprocess Data] --> B[Visualize Random Test Images]
+  B --> C[Define Autoencoder Model]
+  C --> D[Encoder]
+  D --> E[Conv2D, MaxPooling2D]
+  E --> F[Conv2D, MaxPooling2D]
+  F --> G[Decoder]
+  G --> H[Conv2D, UpSampling2D]
+  H --> I[Conv2D, UpSampling2D]
+  I --> J[Predict Compressed Images (pred)]
+  J --> K[Visualize Original and Compressed Images]
+
+  style A fill:#86B342
+  style B fill:#86B342
+  style C fill:#86B342
+  style D fill:#7FC8A9
+  style E fill:#7FC8A9
+  style F fill:#7FC8A9
+  style G fill:#7FC8A9
+  style H fill:#7FC8A9
+  style I fill:#7FC8A9
+  style J fill:#86B342
+  style K fill:#86B342
+
+```
