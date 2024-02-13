@@ -392,3 +392,84 @@ graph TD
   end
 
 ```
+
+
+```mermaid
+graph TD
+  A[Load and Preprocess Data] --> B[Visualize Random Test Images]
+  B --> C[Define Autoencoder Model]
+  C --> D[Train Model on x_train]
+  D --> E[Predict Compressed Images pred]
+  E --> F[Visualize Original and Compressed Images]
+
+  style A fill:#86B342
+  style B fill:#86B342
+  style C fill:#86B342
+  style D fill:#86B342
+  style E fill:#86B342
+  style F fill:#86B342
+
+  subgraph C
+    A1[Input Layer]
+    A2[Encoder]
+    A3[Decoder]
+    A4[Output Layer]
+
+    A1 --> A2
+    A2 --> A3
+    A3 --> A4
+
+    style A1 fill:#9CC3D5
+    style A2 fill:#9CC3D5
+    style A3 fill:#9CC3D5
+    style A4 fill:#9CC3D5
+
+    A2[Encoder] --> A5[Encoding Techniques: e.g., Dense layers, Convolutional layers, etc.]
+    A3[Decoder] --> A6[Decoding Techniques: e.g., Dense layers, Convolutional layers, etc.]
+
+    style A5 fill:#AABDBE
+    style A6 fill:#AABDBE
+  end
+
+```
+
+```mermaid
+graph TD
+  A[Load and Preprocess Data] --> B[Visualize Random Test Images]
+  B --> C[Define Autoencoder Model]
+  C --> D[Train Model on x_train]
+  D --> E[Predict Compressed Images #40;pred#41;]
+  E --> F[Visualize Original and Compressed Images]
+
+  style A fill:#B0D988
+  style B fill:#B0D988
+  style C fill:#B0D988
+  style D fill:#B0D988
+  style E fill:#B0D988
+  style F fill:#B0D988
+
+  subgraph C
+    A1[Input Layer]
+    A2[Encoder]
+    A3[Decoder]
+    A4[Output Layer]
+
+    A1 --> A2
+    A2 --> A3
+    A3 --> A4
+
+    style A1 fill:#C2DDE6
+    style A2 fill:#C2DDE6
+    style A3 fill:#C2DDE6
+    style A4 fill:#C2DDE6
+
+    A2[Encoder] --> A5[Encoding Techniques: e.g., Dense layers, Convolutional layers, etc.]
+    A3[Decoder] --> A6[Decoding Techniques: e.g., Dense layers, Convolutional layers, etc.]
+
+    style A5 fill:#D1D8D9
+    style A6 fill:#D1D8D9
+  end
+
+```
+
+
