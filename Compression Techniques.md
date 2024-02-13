@@ -282,3 +282,113 @@ style E fill:#86B342
 style F fill:#86B342
 
 ```
+
+
+```mermaid
+flowchart TD
+
+subgraph A[Load and Preprocess Data]
+  A1
+  A2
+end
+
+subgraph B[Visualize Random Test Images]
+  B1
+  B2
+end
+
+subgraph C[Define Autoencoder Model]
+  C1
+  C2
+  C3(Explanation: Convolutional Autoencoder with Encoder and Decoder Layers)
+  subgraph C4[Techniques]
+    C4a[Conv2D]
+    C4b[MaxPooling2D]
+    C4c[UpSampling2D]
+  end
+end
+
+subgraph D[Train Model on x_train]
+  D1
+  D2
+  D3(Explanation: Model is trained using x_train dataset)
+  subgraph D4[Techniques]
+    D4a[Adam Optimizer]
+    D4b[Binary Crossentropy Loss]
+  end
+end
+
+subgraph E[Predict Compressed Images pred]
+  E1
+  E2
+  E3(Explanation: Autoencoder predicts compressed images using x_test)
+end
+
+subgraph F[Visualize Original and Compressed Images]
+  F1
+  F2
+  F3(Explanation: Visualizing original and compressed images for comparison)
+end
+
+style A fill:#86B342
+style B fill:#86B342
+style C fill:#86B342
+style D fill:#86B342
+style E fill:#86B342
+style F fill:#86B342
+
+```
+
+
+```mermaid
+graph TD
+  A[Load and Preprocess Data] --> B[Visualize Random Test Images]
+  B --> C[Define Autoencoder Model]
+  C --> D[Train Model on x_train]
+  D --> E[Predict Compressed Images pred]
+  E --> F[Visualize Original and Compressed Images]
+
+  style A fill:#86B342
+  style B fill:#86B342
+  style C fill:#86B342
+  style D fill:#86B342
+  style E fill:#86B342
+  style F fill:#86B342
+
+  subgraph stepA
+    A
+    style A fill:#86B342,stroke:#333,stroke-width:2px
+    note over A : Load raw data and perform preprocessing steps\n(e.g., normalization, resizing).
+  end
+
+  subgraph stepB
+    B
+    style B fill:#86B342,stroke:#333,stroke-width:2px
+    note over B : Randomly select test images and visualize them to understand the data.
+  end
+
+  subgraph stepC
+    C
+    style C fill:#86B342,stroke:#333,stroke-width:2px
+    note over C : Define the architecture of the Autoencoder model, including\nencoder and decoder components.
+  end
+
+  subgraph stepD
+    D
+    style D fill:#86B342,stroke:#333,stroke-width:2px
+    note over D : Train the Autoencoder model on the preprocessed training data (x_train)\nusing a suitable optimization algorithm (e.g., Adam) and a loss function\nthat measures the difference between the input and the output.
+  end
+
+  subgraph stepE
+    E
+    style E fill:#86B342,stroke:#333,stroke-width:2px
+    note over E : Use the trained Autoencoder model to predict compressed\nrepresentations of test images (pred).
+  end
+
+  subgraph stepF
+    F
+    style F fill:#86B342,stroke:#333,stroke-width:2px
+    note over F : Visualize the original and compressed images to evaluate the\nperformance of the Autoencoder in preserving important features.
+  end
+
+```
