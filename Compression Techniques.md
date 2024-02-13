@@ -232,28 +232,53 @@ graph TD
 
 
 ```mermaid
-graph TD
-  A[Load and Preprocess Data] --> B[Visualize Random Test Images]
-  B --> C[Define Autoencoder Model]
-  C --> D[Encoder]
-  D --> E[Conv2D, MaxPooling2D]
-  E --> F[Conv2D, MaxPooling2D]
-  F --> G[Decoder]
-  G --> H[Conv2D, UpSampling2D]
-  H --> I[Conv2D, UpSampling2D]
-  I --> J[Predict Compressed Images (pred)]
-  J --> K[Visualize Original and Compressed Images]
+flowchart TB
 
-  style A fill:#86B342
-  style B fill:#86B342
-  style C fill:#86B342
-  style D fill:#7FC8A9
-  style E fill:#7FC8A9
-  style F fill:#7FC8A9
-  style G fill:#7FC8A9
-  style H fill:#7FC8A9
-  style I fill:#7FC8A9
-  style J fill:#86B342
-  style K fill:#86B342
+subgraph A[Load and Preprocess Data]
+  A1(Input: Raw MNIST Data)
+  A2(Output: Preprocessed Data)
+end
+
+subgraph B[Visualize Random Test Images]
+  B1(Input: Preprocessed Data)
+  B2(Output: Visualization of Test Images)
+end
+
+subgraph C[Define Autoencoder Model]
+  C1(Input: Preprocessed Data)
+  C2(Output: Autoencoder Model)
+  C3(Explanation: Convolutional Autoencoder with Encoder and Decoder Layers)
+end
+
+subgraph D[Train Model on x_train]
+  D1(Input: Autoencoder Model, x_train)
+  D2(Output: Trained Model)
+  D3(Explanation: Model is trained using x_train dataset)
+end
+
+subgraph E[Predict Compressed Images pred]
+  E1(Input: Trained Model, x_test)
+  E2(Output: Compressed Images pred)
+  E3(Explanation: Autoencoder predicts compressed images using x_test)
+end
+
+subgraph F[Visualize Original and Compressed Images]
+  F1(Input: x_test, Compressed Images pred)
+  F2(Output: Side-by-side Visualization)
+  F3(Explanation: Visualizing original and compressed images for comparison)
+end
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+
+style A fill:#86B342
+style B fill:#86B342
+style C fill:#86B342
+style D fill:#86B342
+style E fill:#86B342
+style F fill:#86B342
 
 ```
