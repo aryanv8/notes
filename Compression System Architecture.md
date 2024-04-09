@@ -237,6 +237,37 @@ graph LR
 
 ```
 
+```mermaid
+graph TD
+    A[Input Image] -->|Input| B[Encoder]
+    B -->|Estimates Latent Representation #40;y#41;| C[AnalysisTransform]
+    C -->|Applies TCM| D[TCM Block]
+    D -->|Feature Fusion| E[Entropy Model]
+    E -->|SWAtten Module| F[SWAtten]
+    F -->|Encoded Image| G[Output Image]
+    G -->|Decompression| H[SynthesisTransform]
+    H -->|Reconstructed Image| I[Output]
+
+    B -->|Quantization| J[Quantization]
+    J -->|Range Coding| K[Range Coder]
+    K -->|Transmission| L[Transmission System]
+```
+
+```
+    style A fill:#f9f,stroke:#333
+    style B fill:#fcf,stroke:#333
+    style C fill:#cff,stroke:#333
+    style D fill:#cfc,stroke:#333
+    style E fill:#ff9,stroke:#333
+    style F fill:#9ff,stroke:#333
+    style G fill:#f9f,stroke:#333
+    style H fill:#f9f,stroke:#333
+    style I fill:#f9f,stroke:#333
+    style J fill:#fcf,stroke:#333
+    style K fill:#cff,stroke:#333
+    style L fill:#cfc,stroke:#333
+
+```
 ### Use Case Diagram
 ```mermaid
 graph LR
@@ -262,6 +293,7 @@ graph LR
 
 ```
 
+![[Pasted image 20240409132922.png]]
 
 ### Class Diagram
 
@@ -344,6 +376,7 @@ classDiagram
     EntropyModel --> SWAtten
 
 ```
+
 ### Sequence Diagram
 ```mermaid
 sequenceDiagram
@@ -354,5 +387,38 @@ sequenceDiagram
     System->>System: Apply TCM
     System->>System: Apply Entropy Model
     System->>User: Output Image
+
+```
+
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant InputImage as Input Image
+    participant Encoder
+    participant AnalysisTransform as Analysis Transform
+    participant TCMBlock as TCM Block
+    participant EntropyModel as Entropy Model
+    participant SWAtten
+    participant OutputImage as Output Image
+    participant SynthesisTransform as Synthesis Transform
+
+    User->>InputImage: Provides
+    InputImage->>Encoder: Input
+    Encoder->>AnalysisTransform: Encodes to Latent Representation (y)
+    AnalysisTransform->>TCMBlock: Applies TCM
+    TCMBlock->>EntropyModel: Feature Fusion
+    EntropyModel->>SWAtten: Applies SWAtten Module
+    SWAtten->>OutputImage: Encoded Image
+    OutputImage->>SynthesisTransform: Decompression
+    SynthesisTransform->>User: Reconstructed Image
+
+    rect rgb(255, 235, 235)
+    note over Encoder, SWAtten: Encoding Process
+    end
+
+    rect rgb(235, 255, 235)
+    note over SynthesisTransform: Decoding Process
+    end
 
 ```

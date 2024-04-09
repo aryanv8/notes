@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "c8c2c47e42469f67",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240409132922.png"
+              }
+            }
+          },
+          {
             "id": "d15f1236747dc76d",
             "type": "leaf",
             "state": {
@@ -172,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +196,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2c7ff98ea03e891c",
+  "active": "0c5e98baa3e3e241",
   "lastOpenFiles": [
-    "Compression Architecture Explaination.md",
+    "Pasted image 20240409132922.png",
     "Compression System Architecture.md",
+    "Compression Architecture Explaination.md",
     "Compression Techniques.md",
     "ISAA revision.md",
     "~WRL0005.tmp",
@@ -231,8 +243,6 @@
     "Pasted image 20230608144331.png",
     "MERN/CSS.md",
     "Pasted image 20230607141626.png",
-    "Pasted image 20230607141611.png",
-    "MERN/Express.md",
     "Untitled.canvas"
   ]
 }
