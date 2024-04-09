@@ -513,6 +513,418 @@ graph TD
 
 ```
 
+
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ImageCompressionSystem[Image Compression System]
+        A[Input Image] --> B((Encoder))
+        D[Output Image] --> P((Decoder))
+        style ImageCompressionSystem fill:#ffcaca,stroke:#333
+    end
+    subgraph TCMBlock[TCM Block]
+        B --> C{Split F}
+        C --> I[CNN Stream]
+        C --> J[Transformer Stream]
+        I --> K[Residual Network]
+        J --> L[Swin Transformer Blocks]
+        C --> F[Quantization]
+        style TCMBlock fill:#d9edf7,stroke:#333
+    end
+    subgraph EntropyModel[Entropy Model]
+        C --> D[Entropy Model]
+        D --> M[SWAtten]
+        M --> N[Swin Transformer Block]
+        style EntropyModel fill:#fcf8e3,stroke:#333
+    end
+    subgraph TransmissionSystem[Transmission System]
+        F --> G[Range Coder]
+        G --> H[Transmission]
+        style TransmissionSystem fill:#edffdd,stroke:#333
+    end
+
+    %% External Entities
+    InputImage((Input Image))
+    OutputImage((Output Image))
+
+    %% Processes
+    Encoder((Encoder))
+    Decoder((Decoder))
+    Quantization((Quantization))
+    RangeCoder((Range Coder))
+    Transmission((Transmission))
+
+    %% Data Stores
+    SWAtten((SWAtten))
+    ResidualNetwork((Residual Network))
+    SwinTransformer((Swin Transformer Blocks))
+
+    %% Data Flows
+    InputImage --> Encoder
+    Encoder --> TCMBlock
+    TCMBlock --> Quantization
+    Quantization --> RangeCoder
+    RangeCoder --> Transmission
+    Transmission --> OutputImage
+    SWAtten --> EntropyModel
+    ResidualNetwork --> TCMBlock
+    SwinTransformer --> TCMBlock
+
+```
+
+
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        Decoder((Decoder))
+        Quantization((Quantization))
+        RangeCoder((Range Coder))
+        Transmission((Transmission))
+    end
+
+    subgraph DataStores
+        SWAtten((SWAtten))
+        ResidualNetwork((Residual Network))
+        SwinTransformer((Swin Transformer Blocks))
+    end
+
+    InputImage --> Encoder
+    Encoder --> Quantization
+    Quantization --> RangeCoder
+    RangeCoder --> Transmission
+    Transmission --> OutputImage
+
+    Encoder --> TCMBlock
+    TCMBlock --> Decoder
+    TCMBlock --> SWAtten
+    SWAtten --> EntropyModel
+    TCMBlock --> ResidualNetwork
+    TCMBlock --> SwinTransformer
+
+```
+
+
+```mermaid
+graph LR
+  subgraph Input[Input]
+    A[Image] --> B(Encode)
+  end
+
+  subgraph TCM[TCM Block]
+    B --> C(Extract Features)
+    C --> D(Split Stream)
+    D --> E(CNN Stream)
+    D --> F(Transformer Stream)
+    E --> G(Residual Network)
+    F --> H(Swin Transformer)
+    G --> I{Local Features}
+	H --> I{Non-Local Features}
+
+    I --> J(Concatenate)
+  end
+
+  subgraph Entropy[Entropy Model]
+    C --> K(Channel-wise Entropy)
+    K --> L(SWAtten)
+    L --> M(Swin Transformer)
+    M --> N(Residuals)
+  end
+
+  subgraph Transmission[Transmission Channel]
+    C --> O(Quantization)
+    O --> P(Range Coding)
+    P --> Q(Transmission)
+  end
+
+  subgraph Output[Output]
+    N --> R(Decode)
+    R --> S(Image)
+  end
+```
+
+
+
+```mermaid
+graph LR
+  subgraph Input[Input]
+    A[Image] --> B(Encode)
+  end
+
+  subgraph TCM[TCM Block]
+    B --> C(Extract Features)
+    C --> D(Split Stream)
+    D --> E(CNN Stream)
+    D --> F(Transformer Stream)
+    E --> G(Residual Network)
+    F --> H(Swin Transformer)
+    G --> I{Local Features}
+    H --> I{Non-Local Features}
+    I --> J(Concatenate)
+    J --> C(Feature Map)  
+  end
+
+  subgraph Entropy[Entropy Model]
+    C --> K(Channel-wise Entropy)
+    K --> L(SWAtten)
+    L --> M(Swin Transformer)
+    M --> N(Residuals)
+  end
+
+  subgraph Transmission[Transmission Channel]
+    C --> O(Quantization)
+    O --> P(Range Coding)
+    P --> Q(Transmission)
+  end
+
+  subgraph Output[Output]
+    N --> R(Decode)
+    R --> S(Image)
+  end
+
+```
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        Quantization((Quantization))
+        RangeCoder((Range Coder))
+        Transmission((Transmission))
+        Decoder((Decoder))
+    end
+
+    subgraph DataStores
+        SWAtten((SWAtten))
+        ResidualNetwork((Residual Network))
+        SwinTransformer((Swin Transformer Blocks))
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| Quantization
+    Quantization -->|Quantized Image| RangeCoder
+    RangeCoder -->|Compressed Image| Transmission
+    Transmission -->|Transmitted Image| OutputImage
+
+    Encoder -->|Encoded Image| TCMBlock
+    TCMBlock -->|Decoded Image| Decoder
+    TCMBlock -->|SWAtten Data| SWAtten
+    SWAtten -->|Entropy Model| Quantization
+    TCMBlock -->|Residual Data| ResidualNetwork
+    TCMBlock -->|Transformer Data| SwinTransformer
+
+```
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        Quantization((Quantization))
+        RangeCoder((Range Coder))
+        Transmission((Transmission))
+        SWAtten((SWAtten))
+        Decoder((Decoder))
+    end
+
+    subgraph DataStores
+        ResidualNetwork((Residual Network))
+        SwinTransformer((Swin Transformer Blocks))
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| Quantization
+    Quantization -->|Quantized Image| RangeCoder
+    RangeCoder -->|Compressed Image| Transmission
+    Transmission -->|Transmitted Image| OutputImage
+
+    Encoder -->|Encoded Image| TCMBlock
+    TCMBlock -->|SWAtten Data| SWAtten
+    SWAtten -->|Entropy Model| Quantization
+    TCMBlock -->|Residual Data| ResidualNetwork
+    TCMBlock -->|Transformer Data| SwinTransformer
+    SwinTransformer -->|Decoded Image| Decoder
+
+```
+
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        Quantization((Quantization))
+        RangeCoder((Range Coder))
+        Transmission((Transmission))
+        SWAtten((SWAtten))
+        Decoder((Decoder))
+    end
+
+    subgraph DataStores
+        ResidualNetwork((Residual Network))
+        SwinTransformer((Swin Transformer Blocks))
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| TCMBlock
+    TCMBlock -->|SWAtten Data| SWAtten
+    SWAtten -->|Entropy Model| Quantization
+    TCMBlock -->|Residual Data| ResidualNetwork
+    TCMBlock -->|Transformer Data| SwinTransformer
+    SwinTransformer -->|Decoded Image| Decoder
+    Decoder -->|Decoded Image| OutputImage
+
+```
+
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        TCM((TCM))
+        Entropy((Entropy Model))
+        Decoder((Decoder))
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| TCM
+    TCM -->|Processed Image| Entropy
+    Entropy -->|Entropy Encoded Image| Decoder
+    Decoder -->|Decoded Image| OutputImage
+
+```
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        TCM[TCM]
+        Entropy[Entropy Model]
+        Decoder((Decoder))
+    end
+
+    subgraph TCM
+        TCMSteps[1. TCM processing]
+    end
+
+    subgraph Entropy
+        SWAttn((SWAttn))
+        EntropySteps[2. Entropy Encoding]
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| TCMSteps
+    TCMSteps -->|Processed Image| EntropySteps
+    EntropySteps -->|Entropy Encoded Image| Decoder
+    Decoder -->|Decoded Image| OutputImage
+
+```
+
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ExternalEntities
+        InputImage((Input Image))
+        OutputImage((Output Image))
+    end
+
+    subgraph Processes
+        Encoder((Encoder))
+        TCM[TCM Block]
+        Entropy[Entropy Model]
+        Decoder((Decoder))
+    end
+
+    subgraph TCM
+        I[CNN Stream]
+        J[Transformer Stream]
+        K[Residual Network]
+        L[Swin Transformer Blocks]
+    end
+
+    subgraph Entropy
+        M[SWAtten]
+        N[Swin Transformer Block]
+    end
+
+    InputImage --> Encoder
+    Encoder -->|Encoded Image| TCM
+    TCM -->|Processed Image| Entropy
+    Entropy -->|Entropy Encoded Image| Decoder
+    Decoder -->|Decoded Image| OutputImage
+
+```
+
+
+
+
+
+```
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  D --> F
+  E --> G
+  F --> H
+  G --> I
+  H --> I
+  C --> K
+  K --> L
+  L --> M
+  M --> N
+  C --> O
+  O --> P
+  P --> Q
+  N --> R
+  R --> S
+```
+
+```
+  Input --> TCM
+  TCM --> Entropy
+  TCM --> Transmission
+  Entropy --> Output
+  Transmission --> [External Entity]
+```
+
 ```
     style A fill:#f9f,stroke:#333
     style B fill:#fcf,stroke:#333
