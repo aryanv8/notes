@@ -387,7 +387,8 @@ graph TD
         A[Input Image] --> B[Encoder]
         B --> C[TCM Block]
         C --> D[Entropy Model]
-        D --> E[Output Image]
+        D --> P[Decoder]
+        P --> E[Output Image]
         style ImageCompressionSystem fill:#ffcaca,stroke:#333
     end
     subgraph TCMBlock[TCM Block]
