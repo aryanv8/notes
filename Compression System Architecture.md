@@ -1,4 +1,207 @@
 ```mermaid
+%% Define graph
+graph LR
+
+subgraph ImageCompressionSystem[Image Compression System]
+    style ImageCompressionSystem fill:#f9f,stroke:#333,stroke-width:2px;
+    A[Input Image]
+    B[Encoder]
+    C[TCM Block]
+    D[Entropy Model]
+    E[Output Image]
+end
+
+subgraph TCMBlock[TCM Block]
+    style TCMBlock fill:#f9f,stroke:#333,stroke-width:2px;
+    I[CNN Stream]
+    J[Transformer Stream]
+    K[Residual Network]
+    L[Swin Transformer Blocks]
+end
+
+subgraph EntropyModel[Entropy Model]
+    style EntropyModel fill:#f9f,stroke:#333,stroke-width:2px;
+    M[SWAtten]
+    N[Swin Transformer Block]
+end
+
+subgraph TransmissionSystem[Transmission System]
+    style TransmissionSystem fill:#f9f,stroke:#333,stroke-width:2px;
+    F[Quantization]
+    G[Range Coder]
+    H[Transmission]
+end
+
+```
+
+```mermaid
+%% Define graph
+graph LR
+
+subgraph ImageCompressionSystem[Image Compression System]
+    style ImageCompressionSystem fill:#f9f,stroke:#333,stroke-width:2px;
+    A[Input Image]
+    B[Encoder]
+    C[TCM Block]
+    D[Entropy Model]
+    E[Transmission System]
+    F[Decoder]
+    G[Output Image]
+end
+
+subgraph TCMBlock[TCM Block]
+    style TCMBlock fill:#f9f,stroke:#333,stroke-width:2px;
+    I[CNN Stream]
+    J[Transformer Stream]
+    K[Residual Network]
+    L[Swin Transformer Blocks]
+end
+
+subgraph EntropyModel[Entropy Model]
+    style EntropyModel fill:#f9f,stroke:#333,stroke-width:2px;
+    M[SWAtten]
+    N[Swin Transformer Block]
+end
+
+subgraph TransmissionSystem[Transmission System]
+    style TransmissionSystem fill:#f9f,stroke:#333,stroke-width:2px;
+    O[Quantization]
+    P[Range Coder]
+    Q[Transmission]
+end
+
+```
+
+
+```mermaid
+%% Define graph
+graph TB
+
+subgraph ImageCompressionSystem[Image Compression System Architecture]
+    style ImageCompressionSystem fill:#f9f,stroke:#333,stroke-width:2px;
+    subgraph InputImage[Input Image]
+        style InputImage fill:#fff,stroke:#333,stroke-width:2px;
+        A[Data Source]
+    end
+    subgraph Encoder[Encoder]
+        style Encoder fill:#fff,stroke:#333,stroke-width:2px;
+    end
+    subgraph TCMBlock[TCM Block]
+        style TCMBlock fill:#fff,stroke:#333,stroke-width:2px;
+	    I[CNN Stream]
+	    J[Transformer Stream]
+	    K[Residual Network]
+	    L[Swin Transformer Blocks]
+    end
+    subgraph EntropyModel[Entropy Model]
+        style EntropyModel fill:#fff,stroke:#333,stroke-width:2px;
+        M[SWAtten]
+	    N[Swin Transformer Block]
+    end
+    subgraph TransmissionSystem[Transmission System]
+        style TransmissionSystem fill:#fff,stroke:#333,stroke-width:2px;
+        O[Quantization]
+	    P[Range Coder]
+	    Q[Transmission]
+    end
+    subgraph Decoder[Decoder]
+        style Decoder fill:#fff,stroke:#333,stroke-width:2px;
+        F[Processing]
+    end
+    subgraph OutputImage[Output Image]
+        style OutputImage fill:#fff,stroke:#333,stroke-width:2px;
+        G[Data Sink]
+    end
+end
+
+```
+
+```mermaid
+%% Define graph
+graph TB
+
+subgraph ImageCompressionSystem[Image Compression System Architecture]
+style ImageCompressionSystem align-items:left;
+    subgraph InputImage[Input Image]
+        style InputImage fill:#fff,stroke:#333,stroke-width:2px;
+        A[Data Source]
+    end
+    subgraph Encoder[Encoder]
+        style Encoder fill:#fff,stroke:#333,stroke-width:2px;
+    end
+    subgraph TCMBlock[TCM Block]
+        style TCMBlock fill:#fff,stroke:#333,stroke-width:2px;
+	    I[CNN Stream]
+	    J[Transformer Stream]
+	    K[Residual Network]
+	    L[Swin Transformer Blocks]
+    end
+    subgraph EntropyModel[Entropy Model]
+        style EntropyModel fill:#fff,stroke:#333,stroke-width:2px;
+        M[SWAtten]
+	    N[Swin Transformer Block]
+    end
+    subgraph TransmissionSystem[Transmission System]
+        style TransmissionSystem fill:#fff,stroke:#333,stroke-width:2px;
+        O[Quantization]
+	    P[Range Coder]
+	    Q[Transmission]
+    end
+    subgraph Decoder[Decoder]
+        style Decoder fill:#fff,stroke:#333,stroke-width:2px;
+        F[Processing]
+    end
+    subgraph OutputImage[Output Image]
+        style OutputImage fill:#fff,stroke:#333,stroke-width:2px;
+        G[Data Sink]
+    end
+end
+
+```
+
+```mermaid
+graph TB
+
+subgraph ImageCompressionSystem[Image Compression System Architecture]
+style ImageCompressionSystem fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+    subgraph InputImage[Input Image]
+        style InputImage fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+        A[Data Source]
+    end
+    subgraph Encoder[Encoder]
+        style Encoder fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+    end
+    subgraph TCMBlock[TCM Block]
+        style TCMBlock fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+	    I[CNN Stream]
+	    J[Transformer Stream]
+	    K[Residual Network]
+	    L[Swin Transformer Blocks]
+    end
+    subgraph EntropyModel[Entropy Model]
+        style EntropyModel fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+        M[SWAtten]
+	    N[Swin Transformer Block]
+    end
+    subgraph TransmissionSystem[Transmission System]
+        style TransmissionSystem fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+        O[Quantization]
+	    P[Range Coder]
+	    Q[Transmission]
+    end
+    subgraph Decoder[Decoder]
+        style Decoder fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+        F[Processing]
+    end
+    subgraph OutputImage[Output Image]
+        style OutputImage fill:#fff,stroke:#333,stroke-width:2px, width:80%;
+        G[Data Sink]
+    end
+end
+
+```
+
+```mermaid
 graph TB
     A[Input Image] --> B[Encoder]
     B -->|Latent Representation y| C[Quantization]
@@ -430,6 +633,7 @@ graph TD
         C --> J[Transformer Stream]
         I --> K[Residual Network]
         J --> L[Swin Transformer Blocks]
+    
         style TCMBlock fill:#d9edf7,stroke:#333
     end
     subgraph EntropyModel[Entropy Model]
