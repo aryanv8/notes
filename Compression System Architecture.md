@@ -159,3 +159,200 @@ graph LR
 
 ```
 
+# NEW
+
+```mermaid
+%% Data Flow Diagram
+graph TD
+    subgraph ImageCompressionSystem[Image Compression System]
+        A[Input Image] --> B[Encoder]
+        B --> C[TCM Block]
+        C --> D[Entropy Model]
+        D --> E[Output Image]
+    end
+    subgraph TransmissionSystem[Transmission System]
+        B --> F[Quantization]
+        F --> G[Range Coder]
+        G --> H[Transmission]
+    end
+
+```
+```mermaid
+%% Use Case Diagram
+usecaseDiagram
+    participant User
+    participant System
+    User --> (Compress Image)
+    User --> (Decompress Image)
+    System --> (Compress Image)
+    System --> (Decompress Image)
+```
+
+```mermaid
+%% Class Diagram
+classDiagram
+    class AnalysisTransform
+    class SynthesisTransform
+    class HyperAnalysisTransform
+    class HyperSynthesisTransform
+    class AttentionBlock
+    class SWAtten
+    class ConvolutionalBlocks
+    class Config
+    class UtilityFunctions
+
+    AnalysisTransform <|-- SynthesisTransform
+    HyperAnalysisTransform <|-- HyperSynthesisTransform
+    AttentionBlock <|-- SWAtten
+    ConvolutionalBlocks <|-- ResidualBlock
+    ConvolutionalBlocks <|-- ResidualBlockWithStride
+    ConvolutionalBlocks <|-- ResidualBlockUpsample
+```
+
+```mermaid
+%% Sequence Diagram
+sequenceDiagram
+    participant User
+    participant System
+    User ->> System: Input Image
+    System ->> System: Compress Image
+    System ->> System: Decompress Image
+    System -->> User: Output Image
+
+```
+
+
+# Copilot Answer
+
+### Data Flow Diagram
+```mermaid
+graph LR
+    A[Input Image] --> B[Encoder]
+    B --> C[TCM Block]
+    C --> D[Entropy Model]
+    D --> E[Output Image]
+    B --> F[Quantization]
+    F --> G[Range Coder]
+    G --> H[Transmission]
+
+```
+
+### Use Case Diagram
+```mermaid
+graph LR
+    User((User)) -->|Inputs Image| A[Input Image]
+    System((System)) -->|Encodes Image| B[Encoder]
+    System -->|Applies TCM| C[TCM Block]
+    System -->|Applies Entropy Model| D[Entropy Model]
+    System -->|Outputs Image| E[Output Image]
+
+```
+
+#### 2
+```mermaid
+graph LR
+    User((User)) -->|Inputs Image| A[Input Image]
+    System((System)) -->|Encodes Image| B[Encoder]
+    System -->|Applies TCM Block| C[TCM Block]
+    System -->|Applies Entropy Model| D[Entropy Model]
+    System -->|Quantizes Latent Representation| E[Quantization]
+    System -->|Encodes Residuals| F[Range Coder]
+    System -->|Transmits Encoded Data| G[Transmission]
+    System -->|Outputs Image| H[Output Image]
+
+```
+
+
+### Class Diagram
+
+```mermaid
+classDiagram
+    class ImageCompressionSystem{
+        +Input Image
+        +Encoder
+        +TCM Block
+        +Entropy Model
+        +Output Image
+    }
+    class TCMBlock{
+        +CNN Stream
+        +Transformer Stream
+        +Residual Network
+        +Swin Transformer Blocks
+    }
+    class EntropyModel{
+        +SWAtten
+        +Swin Transformer Block
+    }
+    class TransmissionSystem{
+        +Quantization
+        +Range Coder
+        +Transmission
+    }
+
+```
+
+#### 2
+
+```mermaid
+classDiagram
+    class ImageCompressionSystem{
+        +Input Image
+        +Encoder
+        +TCM Block
+        +Entropy Model
+        +Output Image
+    }
+    class Encoder{
+        +AnalysisTransform
+        +HyperAnalysisTransform
+    }
+    class TCMBlock{
+        +CNN Stream
+        +Transformer Stream
+        +Residual Network
+        +Swin Transformer Blocks
+    }
+    class CNNStream{
+        +ConvTransBlock
+        +ResidualBlock
+        +ResidualBlockWithStride
+        +ResidualBlockUpsample
+    }
+    class TransformerStream{
+        +Swin Transformer Blocks
+    }
+    class EntropyModel{
+        +SWAtten
+        +Swin Transformer Block
+    }
+    class SWAtten{
+        +Channel Squeezing
+        +Spatial Relationships
+    }
+    class TransmissionSystem{
+        +Quantization
+        +Range Coder
+        +Transmission
+    }
+    ImageCompressionSystem --> Encoder
+    ImageCompressionSystem --> TCMBlock
+    ImageCompressionSystem --> EntropyModel
+    ImageCompressionSystem --> TransmissionSystem
+    TCMBlock --> CNNStream
+    TCMBlock --> TransformerStream
+    EntropyModel --> SWAtten
+
+```
+### Sequence Diagram
+```mermaid
+sequenceDiagram
+    participant User as User
+    participant System as System
+    User->>System: Input Image
+    System->>System: Encode Image
+    System->>System: Apply TCM
+    System->>System: Apply Entropy Model
+    System->>User: Output Image
+
+```

@@ -32,17 +32,16 @@
             }
           },
           {
-            "id": "7252150de26a65fc",
+            "id": "fec7440c64a6d89e",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.5.11"
+                "currentVersion": "1.5.12"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compression Architecture Explaination.md",
+                "file": "Compression System Architecture.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compression Architecture Explaination.md",
+                "file": "Compression System Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compression Architecture Explaination.md"
+                "file": "Compression System Architecture.md"
               }
             }
           },
@@ -186,10 +185,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0c5e98baa3e3e241",
+  "active": "2c7ff98ea03e891c",
   "lastOpenFiles": [
-    "Compression System Architecture.md",
     "Compression Architecture Explaination.md",
+    "Compression System Architecture.md",
     "Compression Techniques.md",
     "ISAA revision.md",
     "~WRL0005.tmp",
