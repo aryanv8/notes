@@ -209,3 +209,106 @@ gantt
 
 ```
 
+
+```mermaid
+gantt
+	title Image Compression Research Project Timeline
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 30d
+		Data Collection and Preprocessing: 13/02/24, 30d
+	section MODULE DEVELOPMENT
+		AnalysisTransform: 15/03/24, 5d
+		SynthesisTransform: 20/03/24, 5d
+		HyperAnalysisTransform: 25/03/24, 5d
+		HyperSynthesisTransform: 30/03/24, 5d
+		AttentionBlock: 04/04/24, 5d
+		SWAtten (Swin Transformer Attention): 09/04/24, 5d
+		Convolutional Blocks: 14/04/24, 5d
+		Channel-Wise Entropy: 19/04/24, 5d
+		Slice Transform: 24/04/24, 5d
+		Config: 29/04/24, 1d
+		Utility Functions: 30/04/24, 1d
+	section INTEGRATION & TESTING
+		Module Integration: 01/05/24, 7d
+		Unit Testing: 08/05/24, 5d
+		System Testing: 13/05/24, 5d
+
+```
+
+
+```mermaid
+gantt
+	title Image Compression Research Project Timeline
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 30d
+		Data Collection and Preprocessing: 13/02/24, 30d
+	section MODULE DEVELOPMENT
+		AnalysisTransform: 15/03/24, 5d
+		SynthesisTransform: 20/03/24, 5d
+		HyperAnalysisTransform: 25/03/24, 5d
+		HyperSynthesisTransform: 30/03/24, 5d
+		AttentionBlock: 04/04/24, 5d
+		SWAtten (Swin Transformer Attention): 09/04/24, 5d
+		Convolutional Blocks: 14/04/24, 5d
+		Channel-Wise Entropy: 19/04/24, 5d
+		Slice Transform: 24/04/24, 5d
+		Config: 29/04/24, 1d
+	section INTEGRATION & TESTING
+		Module Integration: 30/04/24, 3d
+		Unit Testing: 03/05/24, 3d
+		System Testing: 06/05/24, 3d
+
+```
+
+
+
+
+
+
+```mermaid
+gantt
+	title Image Compression Using CNN
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 30d
+		Data Collection and Preprocessing: 13/02/24, 30d
+	section MODULE DEVELOPMENT
+		AnalysisTransform: 15/03/24, 4d
+		SynthesisTransform: 19/03/24, 4d
+		HyperAnalysisTransform: 23/03/24, 4d
+		HyperSynthesisTransform: 27/03/24, 4d
+		AttentionBlock: 31/03/24, 4d
+		SWAtten (Swin Transformer Attention): 04/04/24, 4d
+		Convolutional Blocks: 08/04/24, 4d
+		Channel-Wise Entropy: 12/04/24, 4d
+		Slice Transform: 16/04/24, 4d
+		Config: 20/04/24, 1d
+	section INTEGRATION & TESTING
+		Module Integration: 21/04/24, 2d
+		Unit Testing: 23/04/24, 2d
+		System Testing: 25/04/24, 2d
+
+
+```
+
+
+```mermaid
+gantt
+	title Image Compression Research Project Timeline
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 30d
+		Data Collection and Preprocessing: 13/02/24, 30d
+	section MODULE DEVELOPMENT
+		Transform Blocks (Analysis, Synthesis, HyperAnalysis, HyperSynthesis): 15/03/24, 12d
+		Attention Mechanisms (AttentionBlock, SWAtten): 27/03/24, 6d
+		Convolutional and Entropy Blocks (Convolutional Blocks, Channel-Wise Entropy): 02/04/24, 6d
+		Slice Transform and Config: 08/04/24, 4d
+	section INTEGRATION & TESTING
+		Module Integration: 12/04/24, 2d
+		Unit Testing: 14/04/24, 2d
+		System Testing: 16/04/24, 2d
+
+```
