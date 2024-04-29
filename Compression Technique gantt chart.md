@@ -296,6 +296,49 @@ gantt
 
 ```mermaid
 gantt
+	title Image Compression Using CNN
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 30d
+		Data Collection and Preprocessing: 13/02/24, 30d
+	section MODULE DEVELOPMENT
+		TCM Module: 14/03/24, 13d
+		SWAtten module: 27/03/24, 13d
+		Channel-wise entropy module: 09/04/24, 12d
+	section INTEGRATION & TESTING
+		Module Integration: 21/04/24, 2d
+		Unit Testing: 23/04/24, 2d
+		System Testing: 25/04/24, 2d
+
+```
+
+
+
+```mermaid
+gantt
+	title Image Compression Using CNN
+	dateFormat DD/MM/YY
+	section RESEARCH & DEVELOPMENT
+		Literature Review: 15/01/24, 29d
+		Data Collection and Preprocessing: 13/02/24, 29d
+	section MODULE DEVELOPMENT
+		TCM Module: 14/03/24, 12d
+		SWAtten module: 26/03/24, 12d
+		Channel-wise entropy module: 07/04/24, 11d
+	section INTEGRATION & TESTING
+		Module Integration: 18/04/24, 2d
+		Unit Testing: 20/04/24, 2d
+		System Testing: 22/04/24, 2d
+	section RESULT COMPARISON & VISUALIZATION
+		Result Comparison and Visualization: 24/04/24, 5d
+
+```
+
+
+
+
+```mermaid
+gantt
 	title Image Compression Research Project Timeline
 	dateFormat DD/MM/YY
 	section RESEARCH & DEVELOPMENT
