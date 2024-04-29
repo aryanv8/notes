@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compression System Architecture.md",
+                "file": "Compression Technique gantt chart.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,7 +35,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compression Architecture Explaination.md",
+                "file": "Compression Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "617217f24310d99b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISAA 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5,
-    "collapsed": true
+    "width": 272.5
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -126,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compression System Architecture.md",
+                "file": "Compression Technique gantt chart.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compression System Architecture.md",
+                "file": "Compression Technique gantt chart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compression System Architecture.md"
+                "file": "Compression Technique gantt chart.md"
               }
             }
           },
@@ -198,25 +209,26 @@
   },
   "active": "2c7ff98ea03e891c",
   "lastOpenFiles": [
-    "Pasted image 20240409144122.png",
-    "Compression Architecture Explaination.md",
-    "Compression System Architecture.md",
-    "Pasted image 20240409132922.png",
     "Compression Techniques.md",
+    "Compression System Architecture.md",
+    "ISAA 2.md",
+    "Compression Technique gantt chart.md",
+    "Digital Assignment - 1 Smart Contract Essentials.md",
+    "Untitled.md",
+    "temp.md",
+    "Compression Architecture Explaination.md",
+    "Pasted image 20240409132922.png",
+    "Pasted image 20240409144122.png",
     "ISAA revision.md",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
     "~$mpression Techniques.docx",
     "Compression Techniques.docx",
-    "temp.md",
     "Callouts.md",
     "images/Pasted image 20231129180933.png",
-    "ISAA 2.md",
     "Full Binary Tree.md",
-    "Digital Assignment - 1 Smart Contract Essentials.md",
     "Information Security Analysis and Audit.md",
     "Theory + Algorithms.md",
-    "Untitled.md",
     "README.md",
     "Ani.md",
     "Pasted image 20231129180933.png",
@@ -243,7 +255,6 @@
     "Pasted image 20230608151852.png",
     "Pasted image 20230608144331.png",
     "MERN/CSS.md",
-    "Pasted image 20230607141626.png",
     "Untitled.canvas"
   ]
 }
