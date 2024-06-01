@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a0b7f0ecf2ca107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gen AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5,
-    "collapsed": true
+    "width": 272.5
   },
   "right": {
     "id": "371daf0b48648fc0",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agile and DevOps.md",
+                "file": "Gen AI.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agile and DevOps.md",
+                "file": "Gen AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agile and DevOps.md"
+                "file": "Gen AI.md"
               }
             }
           },
@@ -164,11 +176,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a851c2a280dd0e55",
+  "active": "4a0b7f0ecf2ca107",
   "lastOpenFiles": [
+    "Agile and DevOps.md",
+    "Gen AI.md",
     "Pasted image 20240530161222.png",
     "Pasted image 20240530160600.png",
-    "Agile and DevOps.md",
     "Compression Technique gantt chart.md",
     "Compression System Architecture.md",
     "Compression Techniques.md",
@@ -211,7 +224,6 @@
     "Image.png.md",
     "MERN/Set2.md",
     "Pasted image 20230608154737.png",
-    "Pasted image 20230608151852.png",
     "Untitled.canvas"
   ]
 }
