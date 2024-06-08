@@ -11,5 +11,5 @@
   "newFileLocation": "current",
   "showLineNumber": false,
   "tabSize": 4,
-  "readableLineLength": false
+  "readableLineLength": true
 }
