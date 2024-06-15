@@ -6,5 +6,6 @@
   "obsidian-style-settings",
   "obsidian-plugin-toc",
   "obsidian-meta-bind-plugin",
-  "callout-manager"
+  "callout-manager",
+  "js-engine"
 ]

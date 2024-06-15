@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "c5bbff222eeeea87",
+            "id": "890cdb68186156d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -218,14 +218,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c5bbff222eeeea87",
+  "active": "902cde8ca730d074",
   "lastOpenFiles": [
+    "Agile and DevOps.md",
+    "temp.md",
     "jQuery.md",
     "Pasted image 20240615151913.png",
-    "temp.md",
     "Gen AI.md",
     "Pasted image 20240615150140.png",
-    "Agile and DevOps.md",
     "Pasted image 20240530161222.png",
     "Pasted image 20240530160600.png",
     "Compression Technique gantt chart.md",

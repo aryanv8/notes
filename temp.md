@@ -2,7 +2,7 @@
 distance: 12
 someComputedValue: 14
 someInputValue: 7
-count: "0"
+count: 1
 ---
 ### Hello
 ```python
@@ -52,4 +52,17 @@ actions:
     value: 0
 ```
 
-`BUTTON[count-decrement, count-reset, count-increment]` `VIEW[{count}]`
+`BUTTON[count-decrement, count-reset, count-increment]`
+`VIEW[{count}]`
+
+
+Meta Bind has an in plugin help page. `BUTTON[help-button]` Isn't that cool?
+
+```meta-bind-button
+style: primary
+label: Meta Bind Help
+id: help-button
+action:
+  type: command
+  command: obsidian-meta-bind-plugin:open-faq
+```
