@@ -13,30 +13,30 @@ The distinction between these naming conventions becomes apparent early in the s
 
 The following table shows the correspondence between the common names and their Tarot-based secret names for all 22 Pathways:
 
-| Anime/Common Name     | Tarot Pathway Name        | Description |
-|----------------------|--------------------------|-------------|
-| Seer                 | Fool Pathway             | Centers around divination, prophecy, and understanding fate through mystical sight |
-| Apprentice           | Magician Pathway         | Focuses on mysticism, ritual magic, and the manipulation of supernatural forces |
-| Secrets Supplicant   | High Priestess Pathway   | Deals with hidden knowledge, mysteries, and accessing concealed information |
-| Planter              | Empress Pathway          | Revolves around nature, life force, fertility, and connection with natural elements |
-| Lawyer               | Emperor Pathway          | Emphasizes authority, rules, order, and the establishment of structured systems |
-| Prayer               | Hierophant Pathway       | Concentrates on faith, religious practices, and divine connections |
-| Hunter               | Lovers Pathway           | Involves tracking, hunting, relationships, and bonds between individuals |
-| Warrior              | Chariot Pathway          | Focuses on combat prowess, determination, and overcoming obstacles through force |
-| Reader               | Strength Pathway         | Centers on inner strength, courage, and the power to influence through will |
-| Hermit               | Hermit Pathway           | Deals with solitude, introspection, and guidance through wisdom and experience |
-| Sleepless            | Wheel of Fortune Pathway | Involves fate manipulation, fortune, and the cyclical nature of events |
-| Arbiter              | Justice Pathway          | Focuses on balance, fairness, judgment, and the maintenance of cosmic order |
-| Mystery Pryer        | Hanged Man Pathway       | Centers around sacrifice, suspension, and gaining insight through different perspectives |
-| Corpse Collector     | Death Pathway            | Deals with death, transformation, endings, and the transition between states |
-| Harvester            | Temperance Pathway       | Involves balance, moderation, and the harmonious blending of opposing forces |
-| Criminal             | Devil Pathway            | Focuses on temptation, material desires, and the darker aspects of human nature |
-| Savant               | Tower Pathway            | Centers on sudden revelation, destruction of illusions, and enlightenment through upheaval |
-| Secrets Keeper       | Star Pathway             | Involves hope, inspiration, guidance, and connection to cosmic forces |
-| Apothecary           | Moon Pathway             | Deals with illusion, intuition, the subconscious, and hidden truths |
-| Bard                 | Sun Pathway              | Focuses on vitality, success, positivity, and the power of expression and art |
-| Judge                | Judgement Pathway        | Centers on evaluation, rebirth, final decisions, and spiritual awakening |
-| World                | World Pathway            | Involves completion, fulfillment, cosmic consciousness, and universal understanding |
+| S. No. | Anime/Common Name     | Tarot Pathway Name        | Description |
+|--------|----------------------|--------------------------|-------------|
+| 1      | Seer                 | Fool Pathway             | Masters of divination and prophecy |
+| 2      | Sleepless            | Wheel of Fortune Pathway | Guardians who fight supernatural creatures |
+| 3      | Mystery Pryer        | Hanged Man Pathway       | Investigators of supernatural mysteries |
+| 4      | Corpse Collector     | Death Pathway            | Handlers of undead and death-related matters |
+| 5      | Warrior              | Red Priest Pathway       | Fighters and military strategists |
+| 6      | Hunter               | Hunter Pathway           | Trackers and pursuers of targets |
+| 7      | Lawyer               | Arbiter Pathway          | Enforcers of rules and contracts |
+| 8      | Sailor               | Tyrant Pathway           | Masters of storms and seas |
+| 9      | Reader               | White Tower Pathway      | Scholars and keepers of knowledge |
+| 10     | Savant               | Paragon Pathway          | Perfect beings and skill masters |
+| 11     | Apprentice           | Apprentice Pathway       | Manipulators of doors and space |
+| 12     | Thief                | Thief Pathway            | Masters of stealth and theft |
+| 13     | Prisoner             | Prisoner Pathway         | Controllers of shadows and constraints |
+| 14     | Planter              | Mother Pathway           | Nurturers and life manipulators |
+| 15     | Apothecary           | Moon Pathway             | Healers and potion makers |
+| 16     | Assassin             | Demoness Pathway         | Masters of disguise and assassination |
+| 17     | Monster              | Abyss Pathway            | Beings of corruption and chaos |
+| 18     | Criminal             | Chained Pathway          | Bound by restrictions and rules |
+| 19     | Secrets Suppliant    | Hermit Pathway           | Seekers and keepers of secrets |
+| 20     | Spectator            | Visionary Pathway        | Observers and mental manipulators |
+| 21     | Sun                  | Sun Pathway              | Wielders of light and purification |
+| 22     | Error                | Error Pathway            | Masters of mistakes and corrections |
 
 ## Notes
 
