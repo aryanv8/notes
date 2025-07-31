@@ -40,6 +40,6 @@ The following table shows the correspondence between the common names and their 
 
 ## Notes
 
-- This mapping includes all 22 Pathways from the Lord of the Mysteries universe
+- This mapping contains all 22 Pathways with spoiler-free descriptions
 - Each Pathway represents a different supernatural progression system with unique abilities and characteristics
 - The Tarot names often provide insight into the fundamental nature and symbolism of each Pathway
