@@ -1,3 +1,5 @@
+# Lord of Mysteries Season 1 Episode wise summary
+
 | Ep. No. | Title                     | Summary                                                                                                         | Points to remember (PTR)                                                                                 |
 |---------|---------------------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 1       | The Fool Descends         | Klein Moretti discovers a mysterious diary and performs a ritual, leading to supernatural events.             | - Klein discovers the diary.<br>- He performs the summoning ritual.<br>- Introduction to mystical powers.|
